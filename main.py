@@ -94,7 +94,7 @@ if __name__ == "__main__":
 
     os.environ["CUDA_VISIBLE_DEVICES"] = arg.gpus
     torch_device = torch.device("cuda")
-
+    print("now we changed code")
     train_path = "/data/YH/2d_data/rectum/train/"
     val_path = "/data/YH/2d_data/rectum/val/"
     test_path = "/data/YH/2d_data/rectum/test/"
